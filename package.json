@@ -5,6 +5,10 @@
   "repository": "git@github.com:iamake/es6-for-javascript-developers.git",
   "author": "Ake Tangkananond <iamake@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "babel-node --presets env,stage-0 index.js",
+    "build": "babel --presets env,stage-0 -d dist index.js"
+  },
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-preset-env": "^1.5.2",
