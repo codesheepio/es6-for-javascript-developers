@@ -6,8 +6,8 @@
   "author": "Ake Tangkananond <iamake@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "babel-node --presets env,stage-0 index.js",
-    "build": "babel --presets env,stage-0 -d dist index.js"
+    "start": "babel-node index.js",
+    "build": "babel -d dist index.js"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
