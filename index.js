@@ -1,4 +1,4 @@
-import { PI, distance } from './lib/geometry';
+import * as geo from './lib/geometry';
 
-console.log(PI);
-console.log(distance(0, 0, 3, 4));
+console.log(geo.PI);
+console.log(geo.distance(0, 0, 3, 4));
