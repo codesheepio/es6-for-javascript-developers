@@ -1,4 +1,3 @@
-import exp from './lib/exp';
+import _ from 'lodash';
 
-console.log(exp(1));
-console.log(exp(2));
+console.log(_.range(1, 6));
